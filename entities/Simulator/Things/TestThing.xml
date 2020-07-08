@@ -15,7 +15,7 @@
          enabled="true"
          homeMashup=""
          identifier=""
-         lastModifiedDate="2020-07-08T09:10:45.529Z"
+         lastModifiedDate="2020-07-08T09:40:58.495Z"
          name="TestThing"
          projectName="Simulator"
          published="false"
@@ -76,7 +76,7 @@
                                         FirstEntry.expectedOutput = {"name":"Mike"}; // JSON
                                         FirstEntry.passed = true; // BOOLEAN
                                         FirstEntry.testName = "test for user name passed"; // STRING [Primary Key]
-                                        FirstEntry.timestamp = new date(); // DATETIME [Primary Key]
+                                        FirstEntry.timestamp = new Date(); // DATETIME [Primary Key]
                                         
                                         var SecondEntry = new Object();
                                         SecondEntry.comments = "test result that failed the verification";
@@ -84,7 +84,7 @@
                                         SecondEntry.expectedOutput = {"name":"Mike"}; // JSON
                                         SecondEntry.passed = false; // BOOLEAN
                                         SecondEntry.testName = "test for user name failed"; // STRING [Primary Key]
-                                        SecondEntry.timestamp = new date(); // DATETIME [Primary Key]
+                                        SecondEntry.timestamp = new Date(); // DATETIME [Primary Key]
                                         result.AddRow(FirstEntry);
                                         result.AddRow(SecondEntry);
                                         ]]>
